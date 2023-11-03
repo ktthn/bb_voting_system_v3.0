@@ -1,0 +1,92 @@
+/* Стили для верхней навигационной панели */
+#topnav {
+   width: 100%;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   background-color: Black;
+
+   font-family: Arial, sans-serif;
+   font-size: 15px;
+}
+
+.nav-link {
+   display: inline-block;
+   width: 200px;
+   height: 80px;
+
+   color: White;
+
+   text-align: center;
+   line-height: 80px;
+
+   text-decoration: none;
+}
+
+#pages {
+   width: 350px;
+
+   background-color: RoyalBlue;
+
+   font-weight: bold;
+}
+
+#faq-container {
+   margin-top: 100px; /* Чтобы контент начинался под навигационной панелью */
+   padding: 20px;
+   position: relative;
+   z-index: 1; /* Добавьте это свойство */
+}
+
+
+.question {
+   background-color: RoyalBlue;
+   color: White;
+   padding: 10px;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.answer {
+   background-color: #f9f9f9;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   display: none; /* Скрыть ответы по умолчанию */
+}
+
+
+
+/* ------------------------------- */
+#bottom-section {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: black;
+   padding: 20px;
+   color: white;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#social-media a {
+   margin: 10px;
+   text-decoration: none;
+   color: white;
+}
+
+#social-media img {
+   width: 30px;
+   height: 30px;
+   margin: 5px;
+}
+
+#contact-info {
+   margin-left: 20px;
+}
