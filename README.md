@@ -1,8 +1,6 @@
 # bb_voting_system_v3.0
-edited
 
-
-This prototype serves as a proof of concept, demonstrating the feasibility of implementing a new electronic voting system in a real-world environment. 
+This prototype demonstrates the feasibility of implementing a new electronic voting system in a real-world environment. 
 In addition, the prototype provided valuable insight into the technical challenges and potential benefits of such a system. 
 This contribution is a fundamental step towards the digitization of democracy in Kazakhstan 
 and represents a tangible starting point for further research and development in blockchain-based e-voting.
