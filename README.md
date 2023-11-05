@@ -33,5 +33,6 @@ https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/d1718870-ed64-4cb
 
 FAQ and Help page
 
-https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/eb595a69-ce4b-46a7-a188-b939f211f6cb
+https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/54771445-036b-4260-8b85-dda3ad3b88a7
+
 
