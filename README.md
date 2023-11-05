@@ -23,3 +23,15 @@ Voting page
 https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/7ac4802c-fb5d-4cd2-a244-b8d9d8bc7eef
 
 
+Mining page
+
+https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/3ad2adac-3f0f-4182-ab2c-08e3f4602430
+
+Results page
+
+https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/d1718870-ed64-4cba-b1ad-289f29dda6cc
+
+FAQ and Help page
+
+https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/eb595a69-ce4b-46a7-a188-b939f211f6cb
+
