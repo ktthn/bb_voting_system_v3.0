@@ -1,2 +1,0 @@
-python blockchain_mining.py -p 5050
-python blockchain_voting.py -p 8080
