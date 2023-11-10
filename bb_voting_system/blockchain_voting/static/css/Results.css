@@ -14,7 +14,7 @@
 
 .nav-link {
    display: inline-block;
-   width: 200px;
+   width: 180px;
    height: 80px;
 
    color: White;
@@ -24,7 +24,18 @@
 
    text-decoration: none;
 }
+.nav-link-active {
+   display: inline-block;
+   width: 180px;
+   height: 70px;
 
+   color: royalblue;
+
+   text-align: center;
+   line-height: 80px;
+
+   text-decoration: none;
+}
 #pages {
    width: 350px;
 

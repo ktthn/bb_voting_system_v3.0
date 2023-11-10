@@ -86,6 +86,17 @@ def generate_vote():
 
     return jsonify(response), 200
 
+@app.route('/redirect_to_different_mining')
+def redirect_to_different_mining():
+    # Assuming the other localhost is running on port 5001
+    return redirect('http://localhost:5050/')
+
+
+@app.route('/redirect_to_different_configure')
+def redirect_to_different_configure():
+    # Assuming the other localhost is running on port 5001
+    return redirect('http://localhost:5050/configure')
+
 
 if __name__ == '__main__':
     from argparse import ArgumentParser

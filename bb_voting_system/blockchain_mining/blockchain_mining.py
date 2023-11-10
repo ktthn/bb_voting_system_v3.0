@@ -10,7 +10,7 @@ import requests
 from Crypto.Hash import SHA
 from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, redirect
 from flask_cors import CORS
 
 MINING_SENDER = "THE BLOCKCHAIN"
@@ -224,7 +224,31 @@ def get_votes():
     response = {'votes': votes}
     return jsonify(response), 200
 
+@app.route('/redirect_to_different_localhost')
+def redirect_to_different_localhost():
+    # Assuming the other localhost is running on port 5001
+    return redirect('http://localhost:8080/')
 
+
+@app.route('/redirect_to_different_votes')
+def redirect_to_different_votes():
+    # Assuming the other localhost is running on port 5001
+    return redirect('http://localhost:8080/make/vote')
+
+@app.route('/redirect_to_different_view')
+def redirect_to_different_view():
+    # Assuming the other localhost is running on port 5001
+    return redirect('http://localhost:8080/view/votes')
+
+@app.route('/redirect_to_different_faq')
+def redirect_to_different_faq():
+    # Assuming the other localhost is running on port 5001
+    return redirect('http://localhost:8080/faq')
+
+@app.route('/redirect_to_different_help')
+def redirect_to_different_help():
+    # Assuming the other localhost is running on port 5001
+    return redirect('http://localhost:8080/help')
 @app.route('/chain', methods=['GET'])
 def full_chain():
     response = {
