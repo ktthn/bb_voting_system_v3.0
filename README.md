@@ -34,3 +34,6 @@ FAQ and Help page
 https://github.com/ktthn/bb_voting_system_v3.0/assets/96568884/54771445-036b-4260-8b85-dda3ad3b88a7
 
 
+
+I tried to deploy on Vercel but I failed, working on it
+
