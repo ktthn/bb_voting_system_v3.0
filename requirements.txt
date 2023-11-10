@@ -1,2 +1,4 @@
-run blockchain_mining.py
-run blockchain_voting.py
+requests~=2.31.0
+crypto~=1.4.1
+flask~=3.0.0
+argparse~=1.4.0
