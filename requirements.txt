@@ -1,2 +1,2 @@
-python blockchain_mining.py -p 5050
-python blockchain_voting.py -p 8080
+run blockchain_mining.py
+run blockchain_voting.py
